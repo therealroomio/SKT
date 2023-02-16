@@ -1,10 +1,31 @@
 /*
   Good Luck!
 */
+*{font-family: 'Albert Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Red Hat Display', sans-serif;}
+.red-hat{font-family: 'Red Hat Display', sans-serif;}
+.weight-700{
+  font-weight: 700;
+}
+.w-900{
+  font-weight: 900;
+}
 .hvac-teal-bg {
-  color: #ffffff;
+  color: #ffffff; 
   background-color: #0a6579;
 }
+.header-icon{
+  color: #0a6579;
+  border: 3px solid #000000;
+}
+.a-white a{color: #f5f5f5; text-decoration: none; font-weight: 700;}
+.a-black a{color: #000000; text-decoration: none; font-weight: 700;}
+.copyright{color: #ffffff; font-size: 10px;}
+.copyright a{color:#f6f6f6;}
+.copyright a:hover{color: #ffffff;}
+.material-icons{vertical-align: middle; padding-bottom: 3px;}
 .hvac-teal{
   color: #0a6579;
 }
@@ -43,4 +64,24 @@
 .herolist{
   width:fit-content;
   text-align:left;
+}
+.floating-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.floating-circle img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+.icon-white{
+  color: #ffffff;
 }
