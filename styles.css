@@ -1,0 +1,46 @@
+/*
+  Good Luck!
+*/
+.hvac-teal-bg {
+  color: #ffffff;
+  background-color: #0a6579;
+}
+.hvac-teal{
+  color: #0a6579;
+}
+.hvac-yellow{
+  color: #F99E15;
+}
+.hvac-yellow-bg{
+  background-color: #F99E15;
+}
+.bg-gray{
+  background-color: #f5f5f5;
+}
+.bg-dark-gray{
+  background-color: #484848;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+.hero {
+  color:#ffffff;
+  min-height: 80vh;
+  background: #676767 url("assets/bg.png") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center; /* center vertically */
+  justify-content: center; /* center horizontally */
+  background-blend-mode: multiply;
+}
+.hero-content {
+  text-align: center; /* center the content horizontally within .hero */
+}
+.herolist{
+  width:fit-content;
+  text-align:left;
+}
